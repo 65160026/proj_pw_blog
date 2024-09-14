@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D2E0FB;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cre {
+    margin-left: 10px;
+    color: brown;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fcedca;
+    border-radius: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #7EACB5;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.post {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    color: brown;
+    background: #fcedca;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+    margin-top: 0;
+}
+
+/* ส่วนหัว (Header) */
+header {
+    background-color: #CB80AB;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* ส่วนท้าย (Footer) */
+footer {
+    background-color: #fcedca;
+    color: brown;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* ปุ่มแก้ไข (Edit) */
+.edit-btn {
+    background-color: #86AB89; /* สีเขียว */
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #45a049;
+}
+
+/* ปุ่มลบ (Delete) */
+.delete-btn {
+    background-color: #C96868; /* สีแดง */
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
+
